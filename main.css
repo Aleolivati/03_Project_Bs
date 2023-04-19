@@ -1,0 +1,73 @@
+body {
+    font-family: 'Hi Melody', cursive;
+}
+
+.navbar,
+#membership {
+    background-color: #00003c;
+}
+
+.text-title {
+    font-family: 'Zeyada', cursive;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.colored-text {
+    color: #ffea00;
+}
+
+.nav-item .nav-link.active {
+    background-color: #ffea00;
+    color: #00003c;
+}
+
+.nav-item .nav-link {
+    color: #ffffff;
+}
+
+.bg-gif-about {
+    /* background-color: rgba(0, 0, 0,0.2); */
+    background-image: url(./images/00-about/bg-gif.gif);
+    width: 100%;
+}
+
+.bg-gif-contact {
+    background-image: url(./images/05-contact/contact.gif);
+    background-size: cover;
+    width: 100%;
+}
+
+.bg-about {
+    background-color: rgba(0, 0, 60,0.8);
+    color: #ffffff;
+}
+
+.tab-pane img {
+    max-height: 300px;
+}
+
+#experiences .nav-pills .nav-link.active {
+    color: #ffea00;
+    background-color: #00003c;
+}
+
+#experiences .nav-pills .nav-link,
+#contact h2 {
+    color: #00003c;
+}
+
+#experiences h2 {
+    background-color: #00003c;
+    border-radius: 25px;
+}
+
+#contact button {
+    background-color: #00003c;
+    color: #ffffff;
+}
+
+.bg-contact {
+    background-color: rgba(255, 234, 0, 0.8);
+    border-radius: 20px;
+}
